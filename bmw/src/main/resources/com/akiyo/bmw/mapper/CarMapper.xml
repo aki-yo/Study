@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.akiyo.bmw.mapper.CarMapper">
+
+
+    <!--List<Car> selectCar(Integer pageNum, Integer pageSize, String modelName, String series, BigDecimal minPrice, BigDecimal maxPrice);-->
+    <select id="selectCar" resultType="com.akiyo.bmw.entity.Car">
+        select *
+        from bmw_car
+            <where>
+                <if test="modelName != null and modelName !='' " >
+                       and model_name like concat('%',#{modelName},'%')
+                </if>
+                <if test="series != null and series != '' ">
+                       and series like concat('%',#{series},'%')
+                </if>
+                <if test="minPrice != null">
+                   and price &gt;= #{minPrice}
+                </if>
+                <if test="maxPrice != null">
+                    and price &lt;= #{maxPrice}
+                </if>
+            </where>
+        <!--limit #{pageNum} ,#{pageSize}-->
+    </select>
+</mapper>
