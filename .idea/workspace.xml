@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="59a55799-f835-43fb-b670-99d377b4348b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/textbook/textbook/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textbook/textbook/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textbook/textbook/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textbook/textbook/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textbook/textbook/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textbook/textbook/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textbook/textbook/src/main/java/com/akiyo/textbook/TextbookApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textbook/textbook/src/main/java/com/akiyo/textbook/common/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textbook/textbook/src/main/java/com/akiyo/textbook/config/MyMetaObjectHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textbook/textbook/src/main/java/com/akiyo/textbook/controller/ChapterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textbook/textbook/src/main/java/com/akiyo/textbook/controller/TextbookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textbook/textbook/src/main/java/com/akiyo/textbook/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textbook/textbook/src/main/java/com/akiyo/textbook/entity/Chapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textbook/textbook/src/main/java/com/akiyo/textbook/entity/Textbook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textbook/textbook/src/main/java/com/akiyo/textbook/mapper/ChapterMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textbook/textbook/src/main/java/com/akiyo/textbook/mapper/TextbookMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textbook/textbook/src/main/java/com/akiyo/textbook/service/ChapterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textbook/textbook/src/main/java/com/akiyo/textbook/service/TextbookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textbook/textbook/src/main/java/com/akiyo/textbook/service/impl/ChapterServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textbook/textbook/src/main/java/com/akiyo/textbook/service/impl/TextbookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textbook/textbook/src/main/java/com/akiyo/textbook/util/UserContextUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textbook/textbook/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textbook/textbook/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textbook/textbook/src/test/java/com/akiyo/textbook/TextbookApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OddEvenPrinter/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OddEvenPrinter/OddEvenPrinter.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="366LCOL8SqL7KKxSAH1tuwiJrvK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.RedisDemoApplication">
+    <configuration name="BmwApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="bmw" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.akiyo.bmw.BmwApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="redis-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.oh.redisdemo.RedisDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="tp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.oh.tp.TpApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59a55799-f835-43fb-b670-99d377b4348b" name="Changes" comment="" />
+      <created>1764321945651</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1764321945651</updated>
+      <workItem from="1764321946730" duration="1137000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
