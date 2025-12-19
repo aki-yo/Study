@@ -11,4 +11,8 @@ public class MD5UtilsTest {
         String expected = "4244f02c3cd25d3e7aaff1af1ec3aae4";
         assertEquals(expected, MD5Utils.md5(input));
     }
+
+    public static void main(String[] args) {
+
+    }
 }
